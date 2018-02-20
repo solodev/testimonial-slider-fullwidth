@@ -1,76 +1,81 @@
 body {
-  font-family: "Open Sans", sans-serif;
-}
-
-.testimonials {
-  overflow: hidden;
-  position: relative;
-}
-
-.testimonials {
-  background: #161d25;
-}
-
-.one-slide,
-.testimonial,
-.message {
-  border: none !important;
-  outline: none !important;
-}
-
-.icon-overlay {
-  position: absolute;
-  opacity: 0.3;
-  right: 10%;
-  top: 0;
-  height: auto;
-  width: 100%;
-  max-width: 400px;
-}
-
-.carousel-controls .control {
-  position: absolute;
-  top: 60%;
-  transform: translateY(-50%);
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  border: 2px solid #fff;
-  z-index: 1;
-}
-
-.prev {
-  left: -2.25rem;
-}
-
-.next {
-  right: -2.25rem;
-}
-
-@media screen and (max-width: 768px) {
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .testimonials {
+    overflow: hidden;
+    position: relative;
+    max-height: 300px;
+  }
+  
+  .testimonials {
+    background: #161d25;
+  }
+  
+  .one-slide,
+  .testimonial,
+  .message {
+    border: none !important;
+    outline: none !important;
+  }
+  
   .icon-overlay {
-    height: 300px;
-    top: calc(50% - 150px);
+    position: absolute;
+    opacity: 0.3;
+    right: 10%;
+    top: 0;
+    height: auto;
+    width: 100%;
+    max-width: 400px;
   }
+  
   .carousel-controls .control {
-    width: 25px;
-    height: 25px;
-    top: inherit;
-    bottom: -2rem;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    z-index: 1;
   }
+  
   .prev {
-    left: 0;
+    left: -2.25rem;
   }
+  
   .next {
-    right: 0;
+    right: -2.25rem;
   }
-  .control i {
-    font-size: .7rem;
+  
+  @media screen and (max-width: 768px) {
+    .testimonials {
+      max-height: none;
+    }
+    .icon-overlay {
+      height: 300px;
+      top: calc(50% - 150px);
+    }
+    .carousel-controls .control {
+      width: 25px;
+      height: 25px;
+      top: inherit;
+      bottom: -2rem;
+    }
+    .prev {
+      left: 0;
+    }
+    .next {
+      right: 0;
+    }
+    .control i {
+      font-size: .7rem;
+    }
+    .testimonials .message {
+      font-size: 1rem;
+    }
+    .testimonials h2 {
+      font-size: 1.5rem;
+    }
   }
-  .testimonials .message {
-    font-size: 1rem;
-  }
-  .testimonials h2 {
-    font-size: 1.5rem;
-  }
-}
+  
