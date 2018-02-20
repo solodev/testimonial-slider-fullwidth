@@ -1,5 +1,8 @@
 # testimonial-slider-fullwidth
-At this point, anyone with a website should know that making sure that website is mobile responsive is more than a suggestion -- it’s a requirement. However, issues can pop up when optimizing a website for mobile. You might struggle to maintain some elements of UX design that you love on a desktop layout. You only have so much space to work with on mobile design, and you’ve also got to include pertinent company information. 
+
+Your customers and clients love your brand, and they even admitted it online! Showcase those statements in this stylish testimonial slider tutorial. 
+
+
   		  
 ## Tutorial		  
 For detailed instruction's, view Solodev's [How to Design a Testimonial Slider](https://www.solodev.com/blog/how-to-design-a-testimonial-slider.stml) article.
