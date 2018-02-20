@@ -49,7 +49,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .testimonials {
-    max-height: none;
+    max-height: 700px;
   }
   .icon-overlay {
     height: 300px;
@@ -59,7 +59,6 @@ body {
     width: 25px;
     height: 25px;
     top: inherit;
-    bottom: -2rem;
   }
   .prev {
     left: 0;
