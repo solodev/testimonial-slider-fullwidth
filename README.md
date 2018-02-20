@@ -2,57 +2,55 @@
 At this point, anyone with a website should know that making sure that website is mobile responsive is more than a suggestion -- it’s a requirement. However, issues can pop up when optimizing a website for mobile. You might struggle to maintain some elements of UX design that you love on a desktop layout. You only have so much space to work with on mobile design, and you’ve also got to include pertinent company information. 
   		  
 ## Tutorial		  
-For detailed instruction's, view Solodev's [How to Make the Ultimate Mobile Menu](https://www.solodev.com/blog/web-design/how-to-make-the-ultimate-mobile-menu.stml) article.
+For detailed instruction's, view Solodev's [How to Design a Testimonial Slider](https://www.solodev.com/blog/how-to-design-a-testimonial-slider.stml) article.
  
 ## Demo
   		  
-Try out a working example on [JSFiddle](https://jsfiddle.net/solodev/5pyq6L99/149/).
+Try out a working example on [JSFiddle](https://jsfiddle.net/solodev/fhnf4egh/).
 
 ## HTML
 
 The tutorial contains the following basic HTML markup.
 
 ```
- 
-<section class="testimonials p-5 margin-top-xl pos-r">
-		<div class="container">
-			 <div class="row">
-			  <div class="col-sm-12">
-			  <h2 class="text-center font-weight-bold text-white">Our Customers are Seeing Big Results</h2>
-			  <p></p>
-			 <div class="mt-5 pos-r">
-				<div class="carousel-controls testimonial-carousel-controls">
-				  <div class="control prev"><i class="fa fa-chevron-left text-white">&nbsp;</i></div>
-				  <div class="control next"><i class="fa fa-chevron-right text-white">&nbsp;</i></div>
-				</div>
-				<div class="testimonial-carousel">
-				  <div class="one-slide white">
-					<div class="testimonial w-100 h-100  p-3 text-center">
-					  <div class="message text-center text-gray">"They’ve been consistent throughout the years and grown together with us. Even as they’ve grown, they haven’t lost sight of what they do. Most of their key resources are still with them, which is also a testament to their organization."</div>
-					  <div class="separator">&nbsp;</div>
-					  <div class="brand"><img alt="Florida Dairy Farmers" src="https://raw.githubusercontent.com/solodev/slider-boxes/master/images/img-6.png" class="mx-auto"/></div>
-					</div>
-				  </div>
-				  <div class="one-slide white">
-					<div class="testimonial w-100 h-100  p-3 text-center">
-					  <div class="message text-center text-gray">"Miami Beach Visitor and Convention Authority uses Solodev to craft a website capable of representing its diverse residents. The website features a newsroom with the latest events, an interactive calendar, and a mobile app that puts the resources of VCA at a user’s fingertips."</div>
-					  <div class="separator">&nbsp;</div>
-					  <div class="brand"><img alt="Florida Department of Education" src="https://raw.githubusercontent.com/solodev/slider-boxes/master/images/img-5.png" class="mx-auto"/></div>
-					</div>
-				  </div>
-				  <div class="one-slide white">
-					<div class="testimonial w-100 h-100  p-3 text-center">
-					  <div class="message text-center text-gray">Solodev is a great company to partner with! We are extremely happy with the software, service, and support.</div>
-					  <div class="separator">&nbsp;</div>
-					  <div class="brand"><img alt="Seminole County" src="https://raw.githubusercontent.com/solodev/slider-boxes/master/images/img-3.png" class="mx-auto" /></div>
-					</div>
-				  </div>
-				</div>
-			  </div>
-			</div>
-		  </div>
-		</div>
-	  </section>
+ <section class="testimonials py-5 text-white px-1 px-md-5 margin-top-xl">
+  <img src="https://raw.githubusercontent.com/solodev/testimonial-slider-fullwidth/master/solodev-logo-stacked.png" class="icon-overlay" />
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="pt-2 text-center font-weight-bold">Our Customers Are Seeing Big Results</h2>
+        <div class="mt-5 pos-r">
+          <div class="carousel-controls testimonial-carousel-controls">
+            <div class="control d-flex align-items-center justify-content-center prev"><i class="fa fa-chevron-left"></i></div>
+            <div class="control d-flex align-items-center justify-content-center next"><i class="fa fa-chevron-right"></i></div>
+          </div>
+          <div class="testimonial-carousel">
+            <div class="h5 font-weight-normal one-slide mx-auto">
+              <div class="testimonial w-100 h-100  px-3 text-center d-flex flex-direction-column justify-content-center flex-wrap align-items-center">
+                <div class="message text-center blockquote w-100">"They’ve been consistent throughout the years and grown together with us. Even as they’ve grown, they haven’t lost sight of what they do. Most of their key resources are still with them, which is also a testament to their organization."</div>
+                <div class="blockquote-footer w-100 text-white">Jim Joe, WebCorpCo</div>
+              </div>
+            </div>
+            <div class="h5 font-weight-normal one-slide mx-auto">
+              <div class="testimonial w-100 h-100  px-3 text-center  d-flex flex-direction-column justify-content-center flex-wrap align-items-center">
+                <div class="message text-center blockquote w-100">"Miami Beach Visitor and Convention Authority uses Solodev to craft a website capable of representing its diverse residents. The website features a newsroom with the latest events, an interactive calendar, and a mobile app that puts the
+                  resources of VCA at a user’s fingertips."</div>
+                <div class="blockquote-footer w-100 text-white">Jim Joe, WebCorpCo</div>
+              </div>
+            </div>
+            <div class="h5 font-weight-normal one-slide mx-auto">
+              <div class="testimonial w-100 h-100  px-3 text-center  d-flex flex-direction-column justify-content-center flex-wrap align-items-center">
+                <div class="message text-center blockquote w-100">Solodev is a great company to partner with! We are extremely happy with the software, service, and support.</div>
+                <div class="blockquote-footer w-100 text-white">Jim Joe, WebCorpCo</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 ```
 
 ## CSS
